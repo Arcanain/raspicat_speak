@@ -8,4 +8,6 @@
     <rosparam command="load" file="$(find raspicat_speak)/config/speak_list_move.yaml"/>
     <rosparam command="load" file="$(find raspicat_speak)/config/voice_config.yaml"/>
   </node>
+
+  <node pkg="raspicat_speak" type="voice_playback" name="voice_playback" output="screen"/>
 </launch>

@@ -11,3 +11,6 @@ topics:
   - topic: "/hoge4"
     sentence: "ロボットが通ります　ご注意ください"
     priority: 1
+  - topic: "/hoge5"
+    sentence: "手動走行中です　ご注意ください"
+    priority: 1

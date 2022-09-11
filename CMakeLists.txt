@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   topic_tools
   roslib
+  std_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -48,6 +49,9 @@ target_link_libraries(
   raspicat_speak
   ${catkin_LIBRARIES}
 )
+
+add_executable(voice_playback src/voice_playback.cpp)
+target_link_libraries(voice_playback ${catkin_LIBRARIES})
 
 #############
 ## Install ##
