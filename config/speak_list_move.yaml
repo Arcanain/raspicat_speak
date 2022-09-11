@@ -1,0 +1,13 @@
+topics:
+  - topic: "/hoge1"
+    sentence: "モーブシステムが起動しました"
+    priority: 1
+  - topic: "/hoge2"
+    sentence: "自律移動を開始します"
+    priority: 1
+  - topic: "/hoge3"
+    sentence: "目的地に到達しました　自律移動を終了します"
+    priority: 1
+  - topic: "/hoge4"
+    sentence: "ロボットが通ります　ご注意ください"
+    priority: 1
