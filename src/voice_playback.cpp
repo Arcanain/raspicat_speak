@@ -36,7 +36,6 @@ int main(int argc, char **argv) {
         hoge4_pub.publish(msg);
     } else if (count == 5) {
         hoge5_pub.publish(msg);
-    } else if (count == 6) {
         count = 0;
     }
 
