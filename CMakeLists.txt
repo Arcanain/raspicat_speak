@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   topic_tools
   roslib
   std_msgs
+  geometry_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -53,6 +54,5 @@ target_link_libraries(
 add_executable(voice_playback src/voice_playback.cpp)
 target_link_libraries(voice_playback ${catkin_LIBRARIES})
 
-#############
-## Install ##
-#############
+add_executable(navigation_voice_playback src/navigation_voice_playback.cpp)
+target_link_libraries(navigation_voice_playback ${catkin_LIBRARIES})
